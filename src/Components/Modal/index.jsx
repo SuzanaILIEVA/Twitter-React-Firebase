@@ -57,7 +57,7 @@ const Modal = ({ tweet, close }) => {
   };
   return (
     <div className="fixed inset-0 w-full h-full grid place-items-center bg-gray-600 bg-opacity-40">
-      <div className="bg-black rounded-md py-10 px-8 w-3/4 min-h-[60vh] max-h-[80vh] ">
+      <div className="bg-black rounded-md py-10 px-8 w-3/4  max-w-[600px] min-h-[60vh] max-h-[80vh] ">
         <div className="flex justify-between">
           <h1 className="text-xl font-bold">Edit The Tweet</h1>
           <button onClick={close}>
